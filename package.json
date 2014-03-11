@@ -1,0 +1,30 @@
+{
+  "name": "hubot-gmail-fetcher",
+  "version": "0.1.0",
+  "description": "Hubot plugin to fetch Gmail",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:udzura/hubot-gmail-fetcher.git"
+  },
+  "keywords": [
+    "hubot",
+    "hubot-scripts",
+    "plugin",
+    "gmail"
+  ],
+  "author": "Uchio KONDO <udzura@udzura.jp>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/udzura/hubot-gmail-fetcher/issues"
+  },
+  "homepage": "https://github.com/udzura/hubot-gmail-fetcher",
+  "dependencies": {
+    "lodash": "^2.4.1",
+    "mailparser": "^0.4.1",
+    "inbox": "^1.1.47"
+  }
+}
